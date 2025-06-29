@@ -19,15 +19,15 @@ A simple, 2D, fast-paced, local two-player space shooter built with **Python** a
 
 SpaceShooter/  
 ├── Assets/  
- ├── spaceship_red.png  
- ├── spaceship_yellow.png  
- ├── space.png  
- ├── Gun+Silencer.mp3  
- └── Grenade+1.mp3  
+│ ├── spaceship_red.png  
+│ ├── spaceship_yellow.png  
+│ ├── space.png  
+│ ├── Gun+Silencer.mp3  
+│ └── Grenade+1.mp3  
 ├── build/  
 ├── dist/  
- ├── Assets/  
-   ...  
+    ├── Assets/  
+        ...  
 ├── venv/  
 ├── firstgame.py  
 ├── firstgame.spec  
