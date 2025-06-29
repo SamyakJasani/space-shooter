@@ -17,33 +17,33 @@ A simple, 2D, fast-paced, local two-player space shooter built with **Python** a
 
 ## Folder Structure
 
-SpaceShooter/
-├── Assets/
-│ ├── spaceship_red.png
-│ ├── spaceship_yellow.png
-│ ├── space.png
-│ ├── Gun+Silencer.mp3
-│ └── Grenade+1.mp3
-├── build/
-├── dist/
-    ├── Assets/
-        ...
-├── venv/
-├── firstgame.py
-├── firstgame.spec
-├── requirements.txt
-└── README.md
+SpaceShooter/  
+├── Assets/  
+│ ├── spaceship_red.png  
+│ ├── spaceship_yellow.png  
+│ ├── space.png  
+│ ├── Gun+Silencer.mp3  
+│ └── Grenade+1.mp3  
+├── build/  
+├── dist/  
+    ├── Assets/  
+        ...  
+├── venv/  
+├── firstgame.py  
+├── firstgame.spec  
+├── requirements.txt  
+└── README.md  
 
 
 ---
 
 ## How to Run
 
-pip install -r requirements.txt
-python firstgame.py
+pip install -r requirements.txt  
+python firstgame.py  
 
  -> Build .exe (Optional- using PyInstaller)
-pyinstaller --onefile --noconsole --add-data "Assets;Assets" firstgame.py
--> Then run the .exe inside the dist/ folder.
-Make sure the Assets folder is copied inside dist/ after building.
+pyinstaller --onefile --noconsole --add-data "Assets;Assets" firstgame.py  
+-> Then run the .exe inside the dist/ folder.  
+Make sure the Assets folder is copied inside dist/ after building.  
 
